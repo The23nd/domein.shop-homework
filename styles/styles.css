@@ -15,15 +15,14 @@ div {
 .header-div {
     text-align: center;
     line-height: 10px;
-    padding: 5px;
     height: 380px;
-    background-image:url("/assets/images/mountains.jpg");
+    background-image:url("../assets/images/mountains.jpg");
     background-size: 100%;
     background-position: center;
 }
 
 p.regel2 {
-    font-size: 8px;
+    font-size: 10px;
     color: #5a6d6e;
 }
 
@@ -52,11 +51,11 @@ p.regel2 {
 
 main {
     max-width: 825px;
-    margin-left: 100px;
+    margin: 0 auto;
 }
 
 .quote-border {
-    background-image: url("/assets/icons/quote-left.png");
+    background-image: url("../assets/icons/quote-left.png");
     background-repeat: no-repeat;
     background-position: 40px 28px;
     padding: 25px 45px;
